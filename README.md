@@ -1,6 +1,10 @@
 # Scrcpy Util for Sxhkd-Win32
-- This is a plugin application for [sxhkd-win32](https://github.com/theSoberSobber/sxhkd-win32)
-- Here's a Sample Config for Example Usage
+- This is a plugin application for [sxhkd-win32](https://github.com/theSoberSobber/sxhkd-win32).
+- The compiled binary is provided but should preferrably be compiled locally by `g++ main.cpp -mwindows -o adb-tcpip-connect`
+- `adb` and `scrcpy` are not provided and should be installed from their respective sources.
+- IP Widget App on android phone makes the adb-tcpip-connect.exe applicatione even more useful and hence is recommended.
+
+# Sample Config and Example Usage
 
 ```c
 #define MODKEY          (MOD_ALT)
