@@ -1,7 +1,8 @@
 # Scrcpy Util for Sxhkd-Win32
 - This is a plugin application for [sxhkd-win32](https://github.com/theSoberSobber/sxhkd-win32)
 - Here's a Sample Config for Example Usage
-```
+
+```c
 #define MODKEY          (MOD_ALT)
 // options: MOD_WIN | MOD_CTRL | MOD_SHIFT | MOD_ALT
 // can be combined by binary OR operator
